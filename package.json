@@ -6,9 +6,24 @@
     "@testing-library/jest-dom": "^5.13.0",
     "@testing-library/react": "^11.2.7",
     "@testing-library/user-event": "^12.8.3",
+    "@types/react": "^17.0.14",
+    "@types/react-dom": "^17.0.9",
+    "bootstrap": "^5.0.1",
+    "jquery": "^3.6.0",
+    "node-forge": "^0.10.0",
+    "popper.js": "^1.16.1",
     "react": "^17.0.2",
+    "react-animated-css": "^1.2.1",
+    "react-countup": "^4.4.0",
     "react-dom": "^17.0.2",
+    "react-router-dom": "^5.2.0",
     "react-scripts": "4.0.3",
+    "react-slick": "^0.28.1",
+    "react-spring": "^9.2.3",
+    "react-transition-group": "^4.4.2",
+    "react-visibility-sensor": "^5.1.1",
+    "recharts": "^2.0.10",
+    "swiper": "^6.7.1",
     "web-vitals": "^1.1.2"
   },
   "scripts": {
@@ -34,5 +49,9 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "function.prototype.name": "^1.1.1",
+    "object.entries": "^1.1.0"
   }
 }

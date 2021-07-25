@@ -1,0 +1,42 @@
+
+:root{
+    --secondary-color: #AC0000;
+ }
+
+.title{
+    padding: 0.5em 0;
+}
+
+.title-section,.see-more{
+    display: flex;
+    justify-content: center;
+}
+
+.see-more{
+    display: flex; 
+    align-self: center;
+    margin-left: auto;
+}
+
+.see-more > p{
+    color: var(--secondary-color);
+}
+
+.see-more > p > a{
+    text-decoration: none;
+    /* color: #EC1E26; */
+    color: var(--secondary-color);
+}
+
+.see-more>i{
+    /* color: #EC1E26; */
+    color: var(--secondary-color);
+    margin-top: 4px;
+    margin-left: 5px;
+}
+
+.title{
+    /* color: #EC1E26; */
+    color: var(--secondary-color);
+}
+

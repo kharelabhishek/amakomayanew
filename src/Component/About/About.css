@@ -1,0 +1,73 @@
+/* .introduction{
+    padding: 2em 0;
+    border: 1px solid #EC1E26;
+
+}
+
+.background-style{
+    position: relative;
+    height: 10em;
+    background-color: blueviolet;
+}   
+ */
+
+ :root{
+    --sub-heading: 1.5em;
+    --heading-color: #EC1E26;
+ }
+
+.introduction{  
+    text-align: center;
+    font-family: 'Nunito',sans-serif;
+    font-weight: bolder;
+    color: var(--heading-color);
+    font-size: 2.4em;
+    margin-bottom: 0.7em;
+}
+
+.impact-para{  
+    text-align: left !important;
+    font-family: 'Nunito',sans-serif;
+    font-weight: bolder;
+    color: var(--heading-color);
+    font-size: var(--sub-heading);
+}
+
+.background-img {
+    position: relative;
+    width: 100%;
+    height: 15em;
+    background-size: 100% auto;
+    background-repeat: repeat-x;
+    margin-top: 5em;
+}
+
+.background-img::before {   
+    content: "";
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 15em;
+    position: absolute;
+    background-image: url("http://amakomaya.com/images/about-us/2.jpg");
+    background-size: 100% auto;
+    filter: brightness(0.5);
+    background-repeat: repeat-x;
+}
+
+.motive{
+    display: flex;
+    position: relative;
+    color: #fff;
+    font: bold 42px sans-serif;
+    justify-content: center;
+}
+
+.motive > p{
+    filter: none !important;
+    color: #fff;
+    font-style: italic;
+    font-size: 0.8em;
+    margin-top: 2.5em;
+    
+}

@@ -1,0 +1,22 @@
+.about-us > h4{
+  font-size: 30px;
+  text-align: left !important;
+  font-family: Nunito;
+}
+
+.about-us > p{
+  text-align: left;
+}
+
+.about-us > img{
+  padding-bottom: 0.5em;
+}
+
+.data{
+  display: flex;
+}
+
+.data-showimg > h1{
+  font-weight: bolder;
+  
+}

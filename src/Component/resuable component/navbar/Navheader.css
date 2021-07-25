@@ -1,0 +1,80 @@
+.nav-top-header{
+    min-height: 5em;
+    box-shadow:0 2px 5px -5px black;
+}
+
+.logo{
+    margin: 0;
+    padding: 0.3em 0;
+}
+
+.nav-top-header{
+    display: flex;
+}
+
+.title-section,.see-more{
+    display: flex;
+    justify-content: center;
+}
+
+.donate-us{
+    display: flex; 
+    align-self: center;
+    margin-left: auto;
+    padding-right: 1%;
+}
+
+a {
+    display: inline-block;
+    margin: 0px;
+    position: relative;
+    text-decoration: none;
+  }
+  .donate {
+    background: #02c93d;
+    background: -webkit-linear-gradient(top, transparent 0%, rgba(0, 0, 0, 0.4) 100%), -webkit-linear-gradient(left, #00b486 0%, #02aa7d 50%, #49f8cc 100%);
+    background: linear-gradient(to bottom, transparent 0%, rgba(0, 0, 0, 0.4) 100%), linear-gradient(to right, #49f8cc 0%, #02aa7d 50%, #00b486 100%);
+    background-position: 0 0;
+    background-size: 200% 100%;
+    border-radius: 4px;
+    color: #fff;
+    padding: 10px 15px;
+    text-shadow: 1px 1px 5px #666;
+    -webkit-transition: all 800ms;
+    transition: all 800ms;
+    text-decoration: none;
+    font-size: 14px ;
+  }
+  
+  .donate:after {
+    border-left: 1px solid #02c93d;
+    color: #02c93d;
+    /* content: "\f004"; */
+    /* font: 20px "FontAwesome"; */
+    padding: 10px 0;
+    /* padding-left: 15px; */
+    position: absolute;
+    right: 16px;
+    top: 7px;
+    -webkit-transition: all 600ms 200ms;
+    transition: all 600ms 200ms;
+  }
+  .donate:hover {
+    background-position: -100% 0;
+    text-decoration: none;
+    color: #fff;
+  }
+  .donate:hover:after {
+    border-left: 1px solid #02c93d;
+    color: #fff;
+    text-shadow: 0 0 10px #000;
+  }
+  
+
+@media only screen and (max-width : 480px) {
+  .amakomaya-logo{
+    margin-top: 0.3em;
+    width: 200px !important;
+    height: 70px;
+  }
+}

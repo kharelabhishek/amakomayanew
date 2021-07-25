@@ -1,0 +1,34 @@
+.data-number{
+    color: rgb(59, 59, 59);
+    font-weight: bolder;
+    font-size: 3em;
+}
+
+.data-title{
+    color: #585858;
+    font-size: 1.1rem;
+}
+
+.data-number{
+    color: #fff;
+}
+
+.data-title{
+    color: #fff;
+}
+
+.child-bg{
+    background-color: #227893;
+}
+
+.pregnancy-bg{
+    background-color: #822659;
+}
+
+.district-bg{
+    background-color: #b61b1b;
+}
+
+.rounded-card{
+    border-radius: 1rem !important;
+}

@@ -1,0 +1,18 @@
+.distinct-card{
+    width: 98%;
+    border: none!important;
+    box-shadow: none !important;
+    height: 20em !important;
+}
+
+.distinct-card:hover{
+    background-clip: border-box;
+    border: 1px solid rgba(0,0,0,.125) !important;
+    box-shadow: 0 0 10px 0 rgb(0 0 0 / 30%) !important;
+    border-radius: 1rem !important;
+}
+
+.distinct-card > p{
+    padding: 0 0.6em;
+    font-size: 0.9rem;
+}

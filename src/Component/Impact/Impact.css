@@ -1,0 +1,9 @@
+:root {
+	--heading-color: #ec1e26;
+}
+
+.more:hover {
+	color: #fff;
+	background-color: #be1016;
+	transition: background-color 200ms ease-in;
+}
