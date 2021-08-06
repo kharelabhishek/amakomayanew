@@ -8,18 +8,25 @@ import Ourservice from './Our service/Ourservice'
 import Datas from './Datas/Datas'
 import Distinctfeature from './Unique feature/Distinctfeature'
 import Womendata from './Chart/Womendata'
+import Map from '../Map/Map'
+import BG from './Coverbg/Coverbg'
+import Testimonial from './Testimonial/Testimonial'
+
 // import Infography from './infography/Infography'
 
 export default function index() {
     return (
         <>     
+            {/* <BG /> */}
             <Slider />
             <Aboutus />
-            <Womendata />
             <Datas />
             <Ourservice />
+            <Map />
             <News />
             <Distinctfeature />
+            <Womendata />
+            <Testimonial />
             {/* <Ourteam /> */}
             {/* <Pregnancytips />  */}
             {/* <Infography />  */}

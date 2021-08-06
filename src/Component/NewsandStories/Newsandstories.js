@@ -1,7 +1,7 @@
 import React from "react";
 import "./Newsandstories.css";
 import Newsandstoriescontent from "../NewsandStories/Newsandstoriescontent";
-import { Link, Route } from "react-router-dom";
+import { Link } from "react-router-dom";
 // import NewandstoriesDetail from './NewandstoriesDetail'
 
 export default function NewsandStories() {

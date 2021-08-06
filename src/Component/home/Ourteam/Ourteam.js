@@ -3,7 +3,6 @@ import './Ourteam.css'
 import OurteamBoardMember from './OurteamBoardMember'
 import OurteamManagementMember from './OurteamManagementMember'
 import OurteamVolunteerMember from './OurteamVolunteerMember'
-import Titlesection from '../../resuable component/titlesection/Titlesection'
 
 
 export default function Ourteam() {

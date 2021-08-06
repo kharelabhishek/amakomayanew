@@ -1,7 +1,6 @@
 import React from "react";
 import "./Distinctfeature.css";
 import DistinctfeatureData from "./DistintfeatureData";
-import Titlesection from "../../resuable component/titlesection/Titlesection";
 
 export default function Distinctfeature() {
   return (
