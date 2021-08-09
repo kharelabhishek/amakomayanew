@@ -11,6 +11,7 @@ import Womendata from './Chart/Womendata'
 import Map from '../Map/Map'
 import BG from './Coverbg/Coverbg'
 import Testimonial from './Testimonial/Testimonial'
+import PartnersHome from './Partners/PartnersHome'
 
 // import Infography from './infography/Infography'
 
@@ -27,6 +28,7 @@ export default function index() {
             <Distinctfeature />
             <Womendata />
             <Testimonial />
+            <PartnersHome />
             {/* <Ourteam /> */}
             {/* <Pregnancytips />  */}
             {/* <Infography />  */}
