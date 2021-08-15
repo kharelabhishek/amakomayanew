@@ -9,7 +9,7 @@ export default function Aboutus({ location }) {
     <div className="background-css pt-t">
       <div className="container">
         <div className="row ">
-          <Titlesection title="About Us" links="/about-us" />
+          <Titlesection title="About Us" links="/about-us" top="1em" />
           <div className="about-us col-md-6">
             <Animated
               animationIn="bounceInLeft"

@@ -24,7 +24,7 @@ export default function index() {
             <Datas />
             <Ourservice />
             <Map />
-            <News />
+            {/* <News /> */}
             <Distinctfeature />
             <Womendata />
             <Testimonial />

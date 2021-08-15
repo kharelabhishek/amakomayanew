@@ -13,10 +13,10 @@ export default function Data() {
             <div className="card-body pregnancy-bg">
               <h5 className="data-number">
                 <CountUp
-                  suffix="K+"
+                  // suffix="K+"
                   delay={0.3}
                   start={0}
-                  end={11}
+                  end={5771}
                   redraw={true}
                 >
                   {({ countUpRef, start }) => (
@@ -36,10 +36,10 @@ export default function Data() {
             <div className="card-body child-bg">
               <h5 className="data-number">
                 <CountUp
-                  suffix="K+"
+                  // suffix="K+"
                   delay={0.3}
                   start={0}
-                  end={13}
+                  end={19561}
                   redraw={true}
                 >
                   {({ countUpRef, start }) => (

@@ -160,7 +160,7 @@ export default function Navigation({toggle}) {
                         <Link className="nav-link" to="/contact">Contact Us</Link>
                       </li>  
                         <li className="nav-item">
-                          <div className="donate-us">
+                          <div className="donate-us d-sm-none d-md-none">
                               <a href="/#" class="donate ms-2">DONATE</a>
                           </div>
                         </li>       
